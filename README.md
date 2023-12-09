@@ -7,4 +7,6 @@ Generate a personal access token from Github with scope : 'repo' to enable minin
 
 ## Reproducing the results
 1. The processed_data_all.json contains the data set after processing to remove duplicates and non-english data points
-2. Run the Core_developer_category.ipynp script to automatically classify the developers within te dataset into the Core group and Peripheral Group. The 'Answer' from the conversation between ChatGPT and the Core developers will be read into core_convo_1.json and the Prompts from the conversation will be read into core_prompt_1.json. The 'Answer' from the conversations between ChatGPT and the Peripheral developers will be read into peripheral_convo_1.json and the 'Prompts'  from the conversation will be read into Peripheral_prompt_1.json
+2. Run the Core_developer_category.ipynp script to automatically classify the developers within the dataset into the Core group and Peripheral Group. The 'Answer' from the conversation between ChatGPT and the Core developers will be read into core_convo_1.json and the Prompts from the conversation will be read into core_prompt_1.json. The 'Answer' from the conversations between ChatGPT and the Peripheral developers will be read into peripheral_convo_1.json and the 'Prompts'  from the conversation will be read into Peripheral_prompt_1.json
+3. To reproduce the topic modeling and evaluation result, upload the dataset obtained from the previous step in the same directory as the Bertopic.ipynb file. Then run all cells.
+4. 
